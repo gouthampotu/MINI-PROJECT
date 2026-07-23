@@ -8,7 +8,7 @@ are grounded strictly in the uploaded documents.
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.docstore.document import Document
+from langchain_core.documents import Document
 
 
 def build_vector_store(api_key: str, documents: list):
